@@ -1,0 +1,69 @@
+header {
+    background: url('../images/background-header.png') no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* fonts */
+
+@font-face {
+    font-family: Gotham-black;
+    src: url('../fonts/Gotham-Black.otf');
+  }
+  
+  @font-face {
+    font-family: Gotham-bold;
+    src: url('../fonts/Gotham-Bold.otf');
+  }
+  
+  @font-face {
+    font-family: Gotham-bold-italic;
+    src: url('../fonts/GothamBoldItalic.ttf');
+  }
+
+  @font-face {
+    font-family: Gotham-light;
+    src: url('../fonts/Gotham-Light.otf');
+  }
+  
+  @font-face {
+    font-family: Gotham-light-italic;
+    src: url('../fonts/GothamLightItalic.ttf');
+  }
+  
+  @font-face {
+    font-family: Gotham-medium;
+    src: url('../fonts/GothamMedium.ttf');
+  }
+  
+  @font-face {
+    font-family: Gotham-thin;
+    src: url('../fonts/Gotham-Thin.otf');
+  }
+  
+  @font-face {
+    font-family: Gotham-thin-italic;
+    src: url('../fonts/Gotham-ThinItalic.otf');
+  }
+  
+  @font-face {
+    font-family: Gotham-ultraitalic;
+    src: url('../fonts/Gotham-UltraItalic.otf');
+  }
+  
+  @font-face {
+    font-family: Gotham-x-light;
+    src: url('../fonts/Gotham-XLight.otf');
+  }
+  
+  @font-face {
+    font-family: Gotham-xl-light-italic;
+    src: url('../fonts/Gotham-XLightItalic.otf');
+  }
+  
+
+  
+  body{
+    font-family: Gotham-light;
+  }
+ 
