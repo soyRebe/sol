@@ -66,4 +66,41 @@ header {
   body{
     font-family: Gotham-light;
   }
+
+.center-absolute {
+    /*width: 50px;
+    height: 50px;*/
+    /* centrar vertical y horizontalmente */
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    right: 35%;
+    /*margin: -25px 0 0 -25px; /* aplicar a top y al margen izquierdo un valor negativo para completar el centrado del elemento hijo */
+  }
+
+  .text-sub-logo {
+    font-size: 19px;
+    word-spacing: 3px;
+  }
+
+
+  .navbar-light .navbar-toggler {
+    background-image: url('../images/.text-sub-logo');
+    background-size: contain;
+
+}
+
+.bg-section {
+  background-image: url('../images/bg-servicios.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+
+  @media (min-width: 992px) {
+  .navbar-expand-lg .navbar-toggler {
+      display: block;
+  }
+}
  
