@@ -94,7 +94,13 @@ header {
   background-image: url('../images/bg-servicios.png');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 200px;
+  height: 215px;
+}
+
+
+.img-relative {
+  margin-top: -276px;
+  margin-left: 233px;
 }
 
 
